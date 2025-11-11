@@ -219,7 +219,7 @@ function TriggerDetection(reason)
         reason = reason,
         flags = detectionFlags,
         stats = DetectionStats,
-        timestamp = os.time(),
+        timestamp = GetGameTimer(),
         playerCoords = {x = coords.x, y = coords.y, z = coords.z}
     }
 
