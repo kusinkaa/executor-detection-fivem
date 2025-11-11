@@ -521,7 +521,7 @@ Developed with ❤️ for the FiveM community
 - kusinka (Discord: kusinka)
 
 **Inspirations:**
-- Anty AntiCheat
+- Guardian AntiCheat
 - Modern executor detection techniques
 
 ---
