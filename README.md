@@ -6,7 +6,7 @@
 
 Free anticheat with modern executor detection for FiveM servers.
 
-> **💡 For better access and advanced features, visit [GuardianFX](https://guardianfx.com) or contact me on Discord: `kusinka`**
+> **💡 For better access and advanced features, visit [GuardianFX](www://guardianfx.org) or contact me on Discord: `kusinka`**
 
 ---
 
