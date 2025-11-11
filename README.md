@@ -406,18 +406,6 @@ Config.Whitelist = {
 
 ---
 
-## 📊 Detection Statistics
-
-### Effectiveness
-
-| Executor | Detected | Method |
-|----------|---------|---------|
-| Synapse X | ✅ Yes | Input + Cursor |
-| KRNL | ✅ Yes | Thread + Camera |
-| Eulen | ✅ Yes | Cursor + Input |
-| RedEngine | ✅ Yes | Cursor Overlay |
-| Generic Injectors | ✅ Yes | Thread Injection |
-
 ### Detection Rates
 
 - **Modern executors:** ~85-95%
