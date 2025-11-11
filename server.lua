@@ -14,7 +14,7 @@ local playerDetectionCount = {}
 -- ========================================
 -- UTILITY FUNCTIONS
 -- ========================================
-local function GetPlayerIdentifiers(source)
+local function GetFormattedIdentifiers(source)
     local identifiers = {
         steam = "",
         license = "",
@@ -42,7 +42,7 @@ local function IsPlayerWhitelisted(source)
         return false
     end
 
-    local identifiers = GetPlayerIdentifiers(source)
+    local identifiers = GetFormattedIdentifiers(source)
 
     for _, whitelistedId in ipairs(Config.Whitelist.identifiers) do
         if identifiers.steam == whitelistedId or
@@ -69,7 +69,7 @@ local function SendToDiscord(title, message, color, source, detectionData)
         return
     end
 
-    local identifiers = GetPlayerIdentifiers(source)
+    local identifiers = GetFormattedIdentifiers(source)
     local playerName = GetPlayerName(source)
 
     local embed = {
